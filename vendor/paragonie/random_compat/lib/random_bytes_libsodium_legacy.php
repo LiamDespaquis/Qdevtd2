@@ -40,7 +40,7 @@ if (!is_callable('random_bytes')) {
      *
      * @return string
      */
-    function random_bytes($bytes)
+    function Random_bytes($bytes)
     {
         try {
             /** @var int $bytes */

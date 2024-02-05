@@ -41,5 +41,8 @@
 	},
 	"config" : {
 		"autoloader-suffix" : "DontChange"
+	},
+	"require-dev": {
+		"phpmd/phpmd": "@stable"
 	}
 }

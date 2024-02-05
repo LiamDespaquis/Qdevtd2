@@ -53,6 +53,7 @@ class SvgRenderer extends AbstractRenderer
      * @param float $size The size of the bounding rectangle.
      * @param bool $counterClockwise If true the circle will be drawn 
      *      counter clockwise.
+     * @return void 
      */
     protected function addCircleNoTransform($x, $y, $size, $counterClockwise)
     {
@@ -63,6 +64,7 @@ class SvgRenderer extends AbstractRenderer
      * Adds a polygon without translating its coordinates.
      *
      * @param array $points An array of the points that the polygon consists of.
+     * @return void 
      */
     protected function addPolygonNoTransform($points)
     {
